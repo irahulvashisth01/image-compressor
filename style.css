@@ -1,0 +1,89 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto;
+}
+
+body{
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+
+/* Container */
+.container{
+    width:430px;
+    background:#1e293b;
+    padding:28px;
+    border-radius:14px;
+    box-shadow:0 15px 35px rgba(0,0,0,.6);
+}
+
+h2{
+    text-align:center;
+    margin-bottom:18px;
+}
+
+/* Inputs */
+input, button{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+    border-radius:8px;
+    border:none;
+    font-size:14px;
+}
+
+input{
+    background:#334155;
+    color:white;
+}
+
+/* Buttons */
+button{
+    background:#22c55e;
+    color:black;
+    font-weight:600;
+    cursor:pointer;
+    transition:.2s;
+}
+
+button:hover{
+    background:#16a34a;
+    transform:scale(1.02);
+}
+
+.hidden{
+    display:none;
+}
+
+/* Preview */
+.preview{
+    display:flex;
+    gap:10px;
+    margin-top:15px;
+}
+
+.preview div{
+    flex:1;
+    text-align:center;
+}
+
+.preview img{
+    width:100%;
+    height:140px;
+    object-fit:cover;
+    border-radius:8px;
+    background:#0f172a;
+}
+
+.info{
+    margin-top:10px;
+    font-size:13px;
+    opacity:.9;
+    text-align:center;
+}
